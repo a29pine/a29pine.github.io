@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Car as CarIcon, Settings, Gauge, PenTool as Tool, Zap } from 'lucide-react';
-import carImage from './350z.png';
+import carImage from './assets/350z.png';
 
 export default function Car() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
