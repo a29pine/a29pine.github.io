@@ -1,27 +1,17 @@
 import React from 'react';
-import { Instagram, Twitter, Youtube, Mail } from 'lucide-react';
+import { Instagram, Twitter, Youtube, Mail, Discord, Steam } from 'lucide-react';
 
 export default function Social() {
   const socials = [
     {
-      icon: Instagram,
-      label: 'Instagram',
-      href: '#',
+      icon: Discord,
+      label: 'Discord',
+      href: 'http://discord.com/users/744828801153892382/',
     },
     {
-      icon: Twitter,
-      label: 'Twitter',
-      href: '#',
-    },
-    {
-      icon: Youtube,
-      label: 'YouTube',
-      href: '#',
-    },
-    {
-      icon: Mail,
-      label: 'Email',
-      href: 'mailto:example@example.com',
+      icon: Steam,
+      label: 'Steam',
+      href: 'https://steamcommunity.com/profiles/76561198034850729',
     },
   ];
 
