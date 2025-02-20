@@ -1,16 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Car as CarIcon, Settings, Gauge, PenTool as Tool, Zap } from 'lucide-react';
 import carImage from './assets/350z.png';
 
 export default function Car() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
-  const images = [
-    carImage,
-    "https://images.unsplash.com/photo-1626668893618-a53f5c8f9516?auto=format&fit=crop&w=800",
-    "https://images.unsplash.com/photo-1626668893640-7721e1d9a5e8?auto=format&fit=crop&w=800"
-  ];
-  
   const specs = [
     { icon: Settings, label: "Engine", value: "3.5L V6 VQ35DE" },
     { icon: Gauge, label: "Power", value: "287 HP" },
@@ -30,22 +22,10 @@ export default function Car() {
             <div className="space-y-4">
               <div className="relative overflow-hidden rounded-lg hover-3d">
                 <img
-                  src={images[currentImageIndex]}
+                  src={carImage}
                   alt="2004 Nissan 350Z"
                   className="w-full h-auto max-h-96 object-contain transition-transform duration-500"
                 />
-                
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-                  {images.map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setCurrentImageIndex(index)}
-                      className={`w-2 h-2 rounded-full transition-colors duration-300 ${
-                        currentImageIndex === index ? 'bg-purple-400' : 'bg-gray-600'
-                      }`}
-                    />
-                  ))}
-                </div>
               </div>
             </div>
             

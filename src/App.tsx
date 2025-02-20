@@ -10,6 +10,10 @@ import Social from './components/Social';
 
 function App() {
   useEffect(() => {
+    // Disable right-click context menu
+    const handleContextMenu = (event: MouseEvent) => event.preventDefault();
+    document.addEventListener('contextmenu', handleContextMenu);
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -26,7 +30,10 @@ function App() {
       observer.observe(section);
     });
 
-    return () => observer.disconnect();
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+      observer.disconnect();
+    };
   }, []);
 
   return (
