@@ -2,6 +2,13 @@ import React from 'react';
 import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
+  const handleScroll = () => {
+    const section = document.getElementById('target-section');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
       <div className="text-center space-y-6 z-10">
@@ -11,7 +18,10 @@ export default function Hero() {
         <p className="text-xl text-gray-400 max-w-2xl mx-auto">
           Racing enthusiast, car lover, and passionate about life
         </p>
-        <button className="glass-card neon-glow px-8 py-3 text-purple-400 font-semibold hover:scale-105 transition-all duration-300">
+        <button
+          onClick={handleScroll}
+          className="glass-card neon-glow px-8 py-3 text-purple-400 font-semibold hover:scale-105 transition-all duration-300"
+        >
           Explore More
         </button>
       </div>
