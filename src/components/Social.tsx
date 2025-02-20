@@ -1,17 +1,27 @@
 import React from 'react';
-import { Instagram, Twitter, Youtube, Mail, Discord, Steam } from 'lucide-react';
+import { Instagram, Twitter, Youtube, Mail, MessageCircle } from 'lucide-react';
 
 export default function Social() {
   const socials = [
     {
-      icon: Discord,
-      label: 'Discord',
-      href: 'http://discord.com/users/744828801153892382/',
+      icon: Instagram,
+      label: 'Instagram',
+      href: '#',
     },
     {
-      icon: Steam,
-      label: 'Steam',
-      href: 'https://steamcommunity.com/profiles/76561198034850729',
+      icon: Twitter,
+      label: 'Twitter',
+      href: '#',
+    },
+    {
+      icon: Youtube,
+      label: 'YouTube',
+      href: '#',
+    },
+    {
+      icon: Mail,
+      label: 'Email',
+      href: 'mailto:example@example.com',
     },
   ];
 
@@ -36,6 +46,16 @@ export default function Social() {
               </a>
             );
           })}
+        </div>
+
+        <div className="flex justify-center mt-8">
+          <a
+            href="http://discord.com/users/744828801153892382/"
+            className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group"
+          >
+            <MessageCircle className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
+            <span className="text-gray-400">Discord</span>
+          </a>
         </div>
       </div>
     </div>
