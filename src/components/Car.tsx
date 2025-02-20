@@ -32,7 +32,7 @@ export default function Car() {
                 <img
                   src={images[currentImageIndex]}
                   alt="2004 Nissan 350Z"
-                  className="w-full h-64 object-cover transition-transform duration-500"
+                  className="w-full h-auto max-h-96 object-contain transition-transform duration-500"
                 />
                 
                 <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
