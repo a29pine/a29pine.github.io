@@ -9,28 +9,24 @@ export default function Racing() {
       icon: Trophy,
       title: "Karting Achievements",
       value: "7 Podiums",
-      image: "https://images.unsplash.com/photo-1652703747774-558a10faacc2?auto=format&fit=crop&w=800",
       description: "Multiple podium finishes in competitive karting events"
     },
     {
       icon: Timer,
       title: "Best Lap Time",
       value: "2:22.000",
-      image: "https://images.unsplash.com/photo-1588590560438-5e27fe3f6b71?auto=format&fit=crop&w=800",
       description: "Personal best at Silverstone Circuit in GT3RS"
     },
     {
       icon: Medal,
       title: "Racing License",
       value: "Licensed Driver",
-      image: "https://images.unsplash.com/photo-1623796898333-4310fac51d60?auto=format&fit=crop&w=800",
       description: "Certified racing driver with professional credentials"
     },
     {
       icon: Flag,
       title: "Race Starts",
       value: "50+",
-      image: "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&w=800",
       description: "Extensive racing experience across multiple events"
     }
   ];
@@ -58,16 +54,11 @@ export default function Racing() {
                 <h3 className="text-xl font-semibold">{stat.title}</h3>
               </div>
               
-              <div className="relative h-48 overflow-hidden rounded-lg">
-                <img
-                  src={stat.image}
-                  alt={stat.title}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
-                />
+              <div className="relative h-48 overflow-hidden rounded-lg bg-gradient-to-r from-purple-500 to-purple-700 flex items-center justify-center">
+                <p className="text-white text-2xl font-bold">{stat.value}</p>
               </div>
               
               <div className="space-y-2">
-                <p className="text-2xl font-bold text-purple-400">{stat.value}</p>
                 <p className="text-gray-400">{stat.description}</p>
               </div>
             </div>
