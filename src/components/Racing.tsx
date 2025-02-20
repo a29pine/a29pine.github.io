@@ -32,7 +32,7 @@ export default function Racing() {
   ];
 
   return (
-    <div className="py-20 px-4 racing-lights">
+    <div id="target-section" className="py-20 px-4 racing-lights">
       <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">
         Racing Experience
       </h2>
