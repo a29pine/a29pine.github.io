@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, MapPin, Flag } from 'lucide-react';
+import { User, MapPin, Flag, Heart } from 'lucide-react';
 
 export default function About() {
   return (
@@ -39,6 +39,14 @@ export default function About() {
                 <span className="text-2xl" role="img" aria-label="UK flag">
                   🇬🇧
                 </span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <Heart className="w-8 h-8 text-red-400" />
+              <div>
+                <h3 className="text-xl font-semibold">Girlfriend</h3>
+                <p className="text-gray-400">Kim Chaeyun</p>
               </div>
             </div>
           </div>
