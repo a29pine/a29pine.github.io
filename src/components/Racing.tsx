@@ -14,7 +14,7 @@ export default function Racing() {
     {
       icon: Timer,
       title: "Favourite Track",
-      value: "Nürburgring-Nordschleife",
+      value: "Nürburgring",
       description: "Technical & enjoyable"
     },
     {
