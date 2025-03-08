@@ -11,7 +11,7 @@ export default function Racing() {
       value: "7 Podiums",
       description: "Multiple podium finishes in competitive karting events"
     },
-    }
+    {
       icon: Timer,
       title: "Favourite Track",
       value: "Nürburgring-Nordschleife",
