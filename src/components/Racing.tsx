@@ -12,12 +12,6 @@ export default function Racing() {
       description: "Multiple podium finishes in competitive karting events"
     },
     {
-      icon: Timer,
-      title: "Best Lap Time",
-      value: "2:22.000",
-      description: "Personal best at Silverstone Circuit in GT3RS"
-    },
-    {
       icon: Medal,
       title: "Racing License",
       value: "Licensed Driver",
