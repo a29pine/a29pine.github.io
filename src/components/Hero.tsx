@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <div className="text-center space-y-4 sm:space-y-6 z-10">
         <h1 className="typewriter text-3xl sm:text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text glitch" data-text="Welcome to My World">
           Welcome to My World
