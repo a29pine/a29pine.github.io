@@ -4,6 +4,7 @@ import About from './components/About';
 import Racing from './components/Racing';
 import Car from './components/Car';
 import Taekwondo from './components/Taekwondo';
+import MMA from './components/MMA'; // Import the new component
 import Preferences from './components/Preferences';
 import Boundaries from './components/Boundaries';
 import Social from './components/Social';
@@ -66,6 +67,10 @@ function App() {
         
         <section id="taekwondo-section">
           <Taekwondo />
+        </section>
+        
+        <section id="mma-section">
+          <MMA />
         </section>
         
         <section id="preferences-section">
