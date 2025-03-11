@@ -9,13 +9,23 @@ export default function Social() {
           Connect With Me
         </h2>
         
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-8">
+          {/* Discord Box */}
           <a
             href="http://discord.com/users/744828801153892382/"
             className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group"
           >
             <MessageCircle className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
             <span className="text-gray-400">Discord</span>
+          </a>
+
+          {/* HWID Box */}
+          <a
+            href="https://hwid.a29pine.xyz"
+            className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group"
+          >
+            <MessageCircle className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
+            <span className="text-gray-400">HWID</span>
           </a>
         </div>
       </div>
