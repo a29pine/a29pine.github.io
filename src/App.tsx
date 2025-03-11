@@ -44,7 +44,7 @@ function App() {
           <Hero />
         </section>
         
-        <section>
+        <section id="about-section">
           <About />
         </section>
         
