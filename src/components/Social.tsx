@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Cpu, HardDrive } from 'lucide-react';
+import { MessageCircle, Cpu } from 'lucide-react';
 
 export default function Social() {
   return (
@@ -13,7 +13,7 @@ export default function Social() {
           {/* Discord Box */}
           <a
             href="http://discord.com/users/744828801153892382/"
-            className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group"
+            className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group flex-1"
           >
             <MessageCircle className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
             <span className="text-gray-400">Discord</span>
@@ -22,7 +22,7 @@ export default function Social() {
           {/* HWID Box */}
           <a
             href="https://hwid.a29pine.xyz"
-            className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group"
+            className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group flex-1"
           >
             <Cpu className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
             <span className="text-gray-400">Device Info</span>
