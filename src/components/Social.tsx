@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, Cpu, HardDrive } from 'lucide-react';
 
 export default function Social() {
   return (
@@ -24,7 +24,7 @@ export default function Social() {
             href="https://hwid.a29pine.xyz"
             className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group"
           >
-            <MessageCircle className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
+            <Cpu className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
             <span className="text-gray-400">Device Info</span>
           </a>
         </div>
