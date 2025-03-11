@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Racing from './components/Racing';
@@ -11,9 +11,15 @@ import Devices from './components/Devices';
 import HamburgerMenu from './components/HamburgerMenu'; // Import the new component
 
 function App() {
+  const [showPopup, setShowPopup] = useState(false);
+
   useEffect(() => {
     // Disable right-click context menu
-    const handleContextMenu = (event: MouseEvent) => event.preventDefault();
+    const handleContextMenu = (event: MouseEvent) => {
+      event.preventDefault();
+      setShowPopup(true);
+      setTimeout(() => setShowPopup(false), 3000); // Hide popup after 3 seconds
+    };
     document.addEventListener('contextmenu', handleContextMenu);
 
     const observer = new IntersectionObserver(
@@ -78,6 +84,12 @@ function App() {
           <Devices />
         </section>
       </main>
+
+      {showPopup && (
+        <div className="fixed bottom-4 right-4 bg-gray-800 text-white p-4 rounded-md shadow-lg">
+          Right-click is disabled on this website.
+        </div>
+      )}
     </div>
   );
 }
