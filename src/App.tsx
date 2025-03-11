@@ -86,7 +86,7 @@ function App() {
       </main>
 
       {showPopup && (
-        <div className="fixed bottom-4 right-4 bg-gray-800 text-white p-4 rounded-md shadow-lg">
+        <div className="popup fixed bottom-4 right-4 bg-gray-800 text-white p-4 rounded-md shadow-lg transition-opacity duration-500">
           Right-click is disabled on this website.
         </div>
       )}
