@@ -6,7 +6,7 @@ export default function Social() {
     <div className="py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-12 bg-gradient-to-r from-purple-400 to-purple-600 text-transparent bg-clip-text">
-          Connect With Me
+          Connect With Me & More
         </h2>
         
         <div className="flex justify-center gap-8">
