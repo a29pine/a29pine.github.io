@@ -25,7 +25,7 @@ export default function Social() {
             className="glass-card neon-glow p-6 flex flex-col items-center gap-3 group"
           >
             <MessageCircle className="w-8 h-8 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
-            <span className="text-gray-400">HWID</span>
+            <span className="text-gray-400">Device Info</span>
           </a>
         </div>
       </div>
