@@ -7,6 +7,7 @@ import Taekwondo from './components/Taekwondo';
 import Preferences from './components/Preferences';
 import Boundaries from './components/Boundaries';
 import Social from './components/Social';
+import Devices from './components/Devices'; // Import the new component
 
 function App() {
   useEffect(() => {
@@ -69,6 +70,10 @@ function App() {
         
         <section>
           <Social />
+        </section>
+
+        <section>
+          <Devices /> {/* Add the new component here */}
         </section>
       </main>
     </div>
