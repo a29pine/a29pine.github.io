@@ -7,7 +7,8 @@ import Taekwondo from './components/Taekwondo';
 import Preferences from './components/Preferences';
 import Boundaries from './components/Boundaries';
 import Social from './components/Social';
-import Devices from './components/Devices'; // Import the new component
+import Devices from './components/Devices';
+import HamburgerMenu from './components/HamburgerMenu'; // Import the new component
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900">
+      <HamburgerMenu /> {/* Add the new component here */}
       <main>
         <section>
           <Hero />
@@ -48,32 +50,32 @@ function App() {
           <About />
         </section>
         
-        <section>
+        <section id="racing-section">
           <Racing />
         </section>
         
-        <section>
+        <section id="car-section">
           <Car />
         </section>
         
-        <section>
+        <section id="taekwondo-section">
           <Taekwondo />
         </section>
         
-        <section>
+        <section id="preferences-section">
           <Preferences />
         </section>
         
-        <section>
+        <section id="boundaries-section">
           <Boundaries />
         </section>
         
-        <section>
+        <section id="social-section">
           <Social />
         </section>
 
-        <section>
-          <Devices /> {/* Add the new component here */}
+        <section id="devices-section">
+          <Devices />
         </section>
       </main>
     </div>
