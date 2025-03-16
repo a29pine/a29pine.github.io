@@ -6,7 +6,6 @@ import Car from './components/Car';
 import Taekwondo from './components/Taekwondo';
 import MMA from './components/MMA'; // Import the new component
 import Preferences from './components/Preferences';
-import Boundaries from './components/Boundaries';
 import Social from './components/Social';
 import Devices from './components/Devices';
 import HamburgerMenu from './components/HamburgerMenu'; // Import the new component
@@ -75,10 +74,6 @@ function App() {
         
         <section id="preferences-section">
           <Preferences />
-        </section>
-        
-        <section id="boundaries-section">
-          <Boundaries />
         </section>
         
         <section id="social-section">
