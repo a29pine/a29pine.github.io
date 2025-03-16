@@ -40,6 +40,10 @@ export default function HamburgerMenu() {
           <a href="#devices-section" onClick={toggleMenu} className="text-2xl text-purple-400 hover:text-purple-600 transition-colors">
             Devices
           </a>
+          <a href="https://gallery.a29pine.xyz" className="text-2xl text-purple-400 hover:text-purple-600 transition-colors">
+            Gallery
+          </a>
+          <hr className="w-3/4 border-t border-purple-400" />
           <a href="https://hwid.a29pine.xyz" className="text-2xl text-purple-400 hover:text-purple-600 transition-colors">
             HWID Info
           </a>
