@@ -4,11 +4,11 @@ import About from './components/About';
 import Racing from './components/Racing';
 import Car from './components/Car';
 import Taekwondo from './components/Taekwondo';
-import MMA from './components/MMA'; // Import the new component
+import MMA from './components/MMA';
 import Preferences from './components/Preferences';
 import Social from './components/Social';
 import Devices from './components/Devices';
-import HamburgerMenu from './components/HamburgerMenu'; // Import the new component
+import HamburgerMenu from './components/HamburgerMenu';
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900">
-      <HamburgerMenu /> {/* Add the new component here */}
+      <HamburgerMenu />
       <main>
         <section>
           <Hero />

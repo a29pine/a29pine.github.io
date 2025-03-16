@@ -34,9 +34,6 @@ export default function HamburgerMenu() {
           <a href="#preferences-section" onClick={toggleMenu} className="text-2xl text-purple-400 hover:text-purple-600 transition-colors">
             Preferences
           </a>
-          <a href="#boundaries-section" onClick={toggleMenu} className="text-2xl text-purple-400 hover:text-purple-600 transition-colors">
-            Boundaries
-          </a>
           <a href="#social-section" onClick={toggleMenu} className="text-2xl text-purple-400 hover:text-purple-600 transition-colors">
             Social
           </a>
