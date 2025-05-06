@@ -9,25 +9,25 @@ export default function Racing() {
       icon: Trophy,
       title: "Karting Achievements",
       value: "7 Podiums",
-      description: "Multiple podium finishes in competitive karting events"
+      description: "Consistent top finishes in competitive karting events"
     },
     {
       icon: Timer,
       title: "Favourite Track",
       value: "Nürburgring",
-      description: "Technical & enjoyable"
+      description: "A track that combines precision and excitement"
     },
     {
       icon: Medal,
-      title: "Racing License",
-      value: "Licensed Driver",
-      description: "Certified racing driver with professional credentials"
+      title: "Experience Level",
+      value: "Veteran Racer",
+      description: "Years of hands-on experience, racing on various circuits and in multiple disciplines"
     },
     {
       icon: Flag,
-      title: "Race Starts",
+      title: "Races Completed",
       value: "50+",
-      description: "Extensive racing experience across multiple events"
+      description: "Over 50 races completed, each adding to the depth of my racing journey"
     }
   ];
 
