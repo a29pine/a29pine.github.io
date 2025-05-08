@@ -1,12 +1,13 @@
 import React from 'react';
-import { Monitor, Smartphone, Cpu, Laptop } from 'lucide-react';
+import { Monitor, Smartphone, Cpu, Laptop, Car } from 'lucide-react';
 
 export default function Devices() {
   const devices = [
     { icon: Cpu, label: "PC", specs: "Ryzen 7 7800X3D, 4090, 32GB DDR4" },
     { icon: Smartphone, label: "Phone", specs: "Samsung S24 Ultra SnapDragon" },
     { icon: Laptop, label: "Laptop", specs: "Thinkpad T480" },
-    { icon: Monitor, label: "Monitor", specs: "ASUS ROG Strix OLED XG27AQDMG 27'' 1440p 240hz" }
+    { icon: Monitor, label: "Monitor", specs: "ASUS ROG Strix OLED XG27AQDMG 27'' 1440p 240hz" },
+    { icon: Car, label: "Sim Rig", specs: "Moza R16 Base, KS Wheel, CRP2 Load Cell Pedals" }
   ];
 
   return (
