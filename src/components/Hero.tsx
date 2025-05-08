@@ -13,10 +13,10 @@ export default function Hero() {
     <div className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <div className="text-center space-y-6 z-10">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white">
-          Welcome to My World
+          Welcome!
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 max-w-xl sm:max-w-2xl mx-auto">
-          Racing enthusiast, car lover, and passionate about life
+          a29pine, Personal Website
         </p>
         <button
           onClick={handleScroll}
