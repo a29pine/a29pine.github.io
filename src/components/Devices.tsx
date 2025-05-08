@@ -3,7 +3,7 @@ import { Monitor, Smartphone, Cpu, Laptop, Car } from 'lucide-react';
 
 export default function Devices() {
   const devices = [
-    { icon: Cpu, label: "PC", specs: "Ryzen 7 7800X3D, 4090, 32GB DDR4" },
+    { icon: Cpu, label: "PC", specs: "Ryzen 7 7800X3D, 4090, 32GB DDR5" },
     { icon: Smartphone, label: "Phone", specs: "Samsung S24 Ultra SnapDragon" },
     { icon: Laptop, label: "Laptop", specs: "Thinkpad T480" },
     { icon: Monitor, label: "Monitor", specs: "ASUS ROG Strix OLED XG27AQDMG 27'' 1440p 240hz" },
