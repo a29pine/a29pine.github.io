@@ -9,8 +9,7 @@ export default function Preferences() {
     { text: "Gaming", emoji: "🎮" },
     { text: "Country Road Drives", emoji: "🌿🚗" },
     { text: "Piano & Music", emoji: "🎵🎹" },
-    { text: "Dreamcatcher", emoji: "🎤" },
-    { text: "Gahyun from Dreamcatcher", emoji: "👩" }
+    { text: "Dreamcatcher", emoji: "🎤" }
   ];
   
   const dislikes = [
