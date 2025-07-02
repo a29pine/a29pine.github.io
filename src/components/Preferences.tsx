@@ -8,8 +8,7 @@ export default function Preferences() {
     { text: "Sim Racing", emoji: "🎮🏁" },
     { text: "Gaming", emoji: "🎮" },
     { text: "Country Road Drives", emoji: "🌿🚗" },
-    { text: "Piano & Music", emoji: "🎵🎹" },
-    { text: "Dreamcatcher", emoji: "🎤" }
+    { text: "Piano & Music", emoji: "🎵🎹" }
   ];
   
   const dislikes = [
